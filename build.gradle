@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+repositories {
+    	mavenRepo urls: "http://bp-cms-commons.sourceforge.net/m2repo"
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.opencms', name: 'opencms-core', version: '7.5.4'
+	compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+}
+
+sourceSets {
+	main {
+		java {
+			srcDir 'src'
+		}
+	}
+}
