@@ -1,0 +1,9 @@
+A driver for OpenCms that stores teh file contents in RFS.
+
+Developed by Stephan Hartmann of Metamesh (http://metamesh.de)
+
+Building:
+
+To build the Jar file you can use the gradle script that ships with the sources. When gradle is installed:
+
+gradle jar 
